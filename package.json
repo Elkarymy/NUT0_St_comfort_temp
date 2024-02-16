@@ -1,0 +1,125 @@
+{
+  "name": "Comfort, lifestyle, and user behaviour",
+  "profile": "tabular-data-resource",
+  "title": "Standard summer operative design temperatures in spaces with space cooling",
+  "description": "Summer temperature ranges of hourly calculation of cooling and heating energy in four different categories of indoor environment",
+  "version": "1.0.0",
+  "id": "",
+  "created": "2024-02-16"
+  "keywords": = [
+      "EU28",
+      "thermal comfort",
+      "operative temperatures",
+  ],
+  "licenses": [
+    {
+      "id": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "sources": [
+    {
+      "path": "",
+      "name": "EN16798-1"
+      "title": "European standard"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Adrienn Gelesz",
+      "email": "gelesz.adrienn@abud.hu",
+      "role": "author",
+      "organization": "ABUD"
+    },
+    {
+      "title": "Oussama Elkarymy",
+      "email": "oussama.elkarymy@abud.hu",
+      "role": "author",
+      "organization": "ABUD"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ieq",
+      "title": "Standard summer operative design temperatures in spaces with space cooling",
+      "path": "data/ieq.csv",
+      "description": "Summer temperature ranges of hourly calculation of cooling and heating energy in four different categories of indoor environment.",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "spatial_resolution": "NUTS0",
+      "spatial_key_field": "NUTS_ID",
+      "temporal": {
+        "start": "",
+        "end": ""
+      },
+      "bytes": "8",
+      "schema": {
+        "fields": [
+          {
+            "name": "NUTS_ID",
+            "type": "string",
+            "unit": ""
+          },
+          {
+            "name": "Summer_op_IEQI_low",
+            "type": "float",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQI_high",
+            "type": "float",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQII_low",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQII_high",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQIII_low",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQIII_high",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQIV_low",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_op_IEQIV_high",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "Summer_setp_unoccupied",
+            "type": "integer",
+            "unit": "Celsius"
+          },
+          {
+            "name": "nuts_level",
+            "type": "integer",
+            "unit": ""
+          },
+           ]
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true
+      }
+    }
+  ],
+  "id": ""
+}
